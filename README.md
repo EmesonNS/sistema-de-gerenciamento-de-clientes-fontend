@@ -15,11 +15,16 @@
 * Funcinalidades
 * Instalação e Configuração
 * Como Executar
+* Interface do Sistema
 * Contribuição
+
+---
 
 ## Sobre o Projeto
 
 Este é o repositório do Frontend para o Sistema de Gerenciamento de Clientes. A aplicação foi desenvolvida com React e tem como objetivo fornecer uma interface de usuário rica e interativa para consumir a API RESTful do backend. Através desta interface, um usuário autenticado pode realizar operações de CRUD (Create, Read, Update, Delete) para gerenciar clientes.
+
+---
 
 ## Backend
 
@@ -29,11 +34,15 @@ Esta aplicação frontend consome dados de uma API RESTful. O projeto backend co
 
 Para que a aplicação frontend funcione corretamente, é **essencial** que o servidor backend esteja em execução. Por favor, siga as instruções no `README.md` do repositório do backend para configurá-lo e executá-lo.
 
+---
+
 ## Tecnologias
 
   * **JavaScript (React)**
   * **CSS**
   * **HTML**
+
+---
 
 ## Estrutura do Projeto
 
@@ -50,6 +59,8 @@ sistema_gerenciamento_clientes-frontend/
 └─ ...                  # Arquivos padrões do react
 ```
 
+---
+
 ## Variaveis de Ambiente
 
 A aplicação precisa saber o endereço da API do backend. Crie um arquivo chamado .env na raiz do projeto e adicione a seguinte variável:
@@ -58,12 +69,16 @@ REACT_APP_URL_BACKEND=http://localhost:8080/api/v1
 ```
   **Nota:** É fundamental que a variável de ambiente tenha o exato nome REACT_APP_URL_BACKEND.
 
+---
+
 ## Requisitos
 
 Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 
   * [Node.js](https://nodejs.org/en/)
   * [Git](https://git-scm.com/)
+
+---
 
 ## Funcionalidades
 
@@ -73,6 +88,8 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
   * Edição de informações de clientes existentes.
   * Exclusão de clientes.
   * Dashboard com um resumo do status dos clientes.
+
+---
 
 ## Instalação e Configuração
 
@@ -96,6 +113,8 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
     npm install
     ```
 
+---
+
 ## Como Executar
 
 Após a instalação das dependências, você pode executar a aplicação em modo de desenvolvimento:
@@ -106,6 +125,65 @@ npm start
 
 Isso iniciará o servidor de desenvolvimento. Abra seu navegador e acesse [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) para ver a aplicação em funcionamento. A página será recarregada automaticamente se você fizer alterações no código.
 
+---
+
+## Interface do Sistema
+
+### Tela de Login
+<table>
+ <thead>
+  <tr>
+   <th>Login</th>
+   <th>Login Erro</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td aling="center"><img src="*" wigth="200"</td>
+   <td aling="center"><img src="*" wigth="200"</td>
+  </tr>
+ </tbody>
+</table>
+
+---
+
+### Tela Principal
+<table>
+ <thead>
+  <tr>
+   <th>Dashboard</th>
+   <th>Cards</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td aling="center"><img src="*" wigth="200"</td>
+   <td aling="center"><img src="*" wigth="200"</td>
+  </tr>
+ </tbody>
+</table>
+
+---
+
+### Formulário
+
+<table>
+ <thead>
+  <tr>
+   <th>Formulário</th>
+   <th>Formulário Erro</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td aling="center"><img src="*" wigth="200"</td>
+   <td aling="center"><img src="*" wigth="200"</td>
+  </tr>
+ </tbody>
+</table>
+
+---
+
 ## Contribuição
 
 1. Faça um fork do projeto
@@ -113,3 +191,5 @@ Isso iniciará o servidor de desenvolvimento. Abra seu navegador e acesse [http:
 3. Faça o commit (`git commit -m 'Adiciona nova feature'`)
 4. Envie (`git push origin minha-feature`)
 5. Abra um Pull Request
+
+---
