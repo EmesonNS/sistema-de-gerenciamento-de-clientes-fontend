@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Sistema de Gerenciamento de Clientes (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Este é o frontend do Sistema de Gerenciamento de Clientes, uma aplicação web desenvolvida com React para interagir com uma API backend, permitindo a gestão completa de clientes.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Sumário
 
-### `npm start`
+* Sobre o Projeto
+* Backend
+* Tecnologias
+* Estrutura do Projeto
+* Variaveis de Ambiente
+* Requisitos
+* Funcinalidades
+* Instalação e Configuração
+* Como Executar
+* Contribuição
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sobre o Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este é o repositório do Frontend para o Sistema de Gerenciamento de Clientes. A aplicação foi desenvolvida com React e tem como objetivo fornecer uma interface de usuário rica e interativa para consumir a API RESTful do backend. Através desta interface, um usuário autenticado pode realizar operações de CRUD (Create, Read, Update, Delete) para gerenciar clientes.
 
-### `npm test`
+## Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esta aplicação frontend consome dados de uma API RESTful. O projeto backend correspondente pode ser encontrado no seguinte repositório:
 
-### `npm run build`
+  * **Repositório do Backend:** [EmesonNS/sistema-de-gerenciamento-de-clientes-backend](https://github.com/EmesonNS/sistema-de-gerenciamento-de-clientes-backend)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para que a aplicação frontend funcione corretamente, é **essencial** que o servidor backend esteja em execução. Por favor, siga as instruções no `README.md` do repositório do backend para configurá-lo e executá-lo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  * **JavaScript (React)**
+  * **CSS**
+  * **HTML**
 
-### `npm run eject`
+## Estrutura do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Variaveis de Ambiente
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A aplicação precisa saber o endereço da API do backend. Crie um arquivo chamado .env na raiz do projeto e adicione a seguinte variável:
+```
+REACT_APP_URL_BACKEND=http://localhost:8080/api/v1
+```
+  **Nota:** É fundamental que a variável de ambiente tenha o exato nome REACT_APP_URL_BACKEND.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Requisitos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 
-## Learn More
+  * [Node.js](https://nodejs.org/en/)
+  * [Git](https://git-scm.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Funcionalidades
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  * Autenticação de usuários (Login).
+  * Listagem de clientes.
+  * Cadastro de novos clientes.
+  * Edição de informações de clientes existentes.
+  * Exclusão de clientes.
+  * Dashboard com um resumo do status dos clientes.
 
-### Code Splitting
+## Instalação e Configuração
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Siga os passos abaixo para configurar e executar o projeto localmente:
 
-### Analyzing the Bundle Size
+1.  **Clone o repositório:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```bash
+    git clone https://github.com/EmesonNS/sistema-de-gerenciamento-de-clientes-fontend.git
+    ```
 
-### Making a Progressive Web App
+2.  **Acesse o diretório do projeto:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    ```bash
+    cd sistema-de-gerenciamento-de-clientes-fontend
+    ```
 
-### Advanced Configuration
+3.  **Instale as dependências:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    ```bash
+    npm install
+    ```
 
-### Deployment
+## Como Executar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Após a instalação das dependências, você pode executar a aplicação em modo de desenvolvimento:
 
-### `npm run build` fails to minify
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Isso iniciará o servidor de desenvolvimento. Abra seu navegador e acesse [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) para ver a aplicação em funcionamento. A página será recarregada automaticamente se você fizer alterações no código.
+
+## Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch com sua feature (`git checkout -b minha-feature`)
+3. Faça o commit (`git commit -m 'Adiciona nova feature'`)
+4. Envie (`git push origin minha-feature`)
+5. Abra um Pull Request
