@@ -139,8 +139,8 @@ Isso iniciará o servidor de desenvolvimento. Abra seu navegador e acesse [http:
  </thead>
  <tbody>
   <tr>
-   <td aling="center"><img src="*" wigth="200"</td>
-   <td aling="center"><img src="*" wigth="200"</td>
+   <td aling="center"><img src="/screenshot/Tela de login.png" wigth="200"</td>
+   <td aling="center"><img src="/screenshot/Tela de login erro.png" wigth="200"</td>
   </tr>
  </tbody>
 </table>
@@ -157,8 +157,8 @@ Isso iniciará o servidor de desenvolvimento. Abra seu navegador e acesse [http:
  </thead>
  <tbody>
   <tr>
-   <td aling="center"><img src="*" wigth="200"</td>
-   <td aling="center"><img src="*" wigth="200"</td>
+   <td aling="center"><img src="/screenshot/Tela Inicial.png" wigth="200"</td>
+   <td aling="center"><img src="/screenshot/Cards.png" wigth="200"</td>
   </tr>
  </tbody>
 </table>
@@ -176,8 +176,8 @@ Isso iniciará o servidor de desenvolvimento. Abra seu navegador e acesse [http:
  </thead>
  <tbody>
   <tr>
-   <td aling="center"><img src="*" wigth="200"</td>
-   <td aling="center"><img src="*" wigth="200"</td>
+   <td aling="center"><img src="/screenshot/Formulario.png" wigth="200"</td>
+   <td aling="center"><img src="/screenshot/Formulario erro.png" wigth="200"</td>
   </tr>
  </tbody>
 </table>
