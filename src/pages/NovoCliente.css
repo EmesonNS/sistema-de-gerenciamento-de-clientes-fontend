@@ -1,0 +1,88 @@
+.novoCliente {
+  padding: 32px;
+  max-width: 700px;
+  margin: 40px auto;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
+}
+
+.novoCliente h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+}
+
+.novoCliente form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* Mais espaço entre os campos */
+}
+
+.novoCliente label {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.novoCliente input[type="text"],
+.novoCliente input[type="password"],
+.novoCliente input[type="date"],
+.novoCliente input[type="number"],
+.novoCliente input[type="file"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.novoCliente input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+.botoesForm {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.botoesForm button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btnSalvar {
+  background: var(--primary);
+  color: white;
+}
+
+.btnSalvar:hover {
+  background: var(--primary-hover);
+}
+
+.btnCancelar {
+  background: #f1f5f9;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.btnCancelar:hover {
+  background: #e2e8f0;
+}
+
+.erro {
+  color: var(--danger);
+  font-size: 13px;
+  margin-top: 4px;
+}

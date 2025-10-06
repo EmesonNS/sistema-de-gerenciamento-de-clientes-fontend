@@ -1,0 +1,103 @@
+.cardCliente {
+  background: var(--surface);
+  padding: 24px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cardCliente:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -4px rgba(0, 0, 0, 0.07);
+}
+
+.cardCliente .foto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  background-color: #f1f5f9;
+}
+
+.cardCliente h3 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 20px;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 8px 0;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.status.atrasado {
+  background: #fee2e2; color: #b91c1c;
+}
+.status.pendente {
+  background: #fef9c3; color: #a16207;
+}
+.status.pago {
+  background: #dcfce7; color: #16a34a;
+}
+
+.cardCliente p {
+  margin: 0px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.cardCliente p b {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.acoes {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color);
+}
+
+.acoes button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.editar {
+  background: var(--primary);
+}
+.editar:hover {
+  background: var(--primary-hover);
+}
+.excluir {
+  background: var(--danger);
+}
+.excluir:hover {
+  background: var(--danger-hover);
+}
+.pagar {
+  background: var(--success);
+}
+.pagar:hover {
+  background: var(--success-hover);
+}
+
+@media (max-width: 500px) {
+  
+}
