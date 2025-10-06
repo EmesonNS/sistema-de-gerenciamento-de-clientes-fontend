@@ -37,6 +37,19 @@ Para que a aplicação frontend funcione corretamente, é **essencial** que o se
 
 ## Estrutura do Projeto
 
+```
+sistema_gerenciamento_clientes-frontend/
+├─ public/              # Arquivos publicos do react
+│  └─ assets/           # Imagens utilizadas no projeto
+├─ src/                 # Pasta prinicipal do projeto contendo todos os componentes, pages e lógica de segurança
+|  ├─ components/       # CardCliente, ClienteForm, PrivateRoute...
+|  ├─ contexts/         # AuthContext
+|  ├─ pages/            # Dashboard, Login, NovoCliente, EditarCliente
+│  └─ services/         # api, auth
+├─ App.js               # Chamada principal das rotas
+└─ ...                  # Arquivos padrões do react
+```
+
 ## Variaveis de Ambiente
 
 A aplicação precisa saber o endereço da API do backend. Crie um arquivo chamado .env na raiz do projeto e adicione a seguinte variável:
